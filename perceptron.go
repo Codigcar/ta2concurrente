@@ -93,9 +93,9 @@ func entrenamiento(data_de_entrada [16][2]float64, tasa_aprendizaje float64, max
 					pesos_mejor = pesos
 					sesgo_mejor = sesgo
 
-					//fmr.Println("%error: ", error_mejor)
-					//fmr.Println("sesgo: ", sesgo_mejor)
-					//fmr.Println("pesos: ", pesos_mejor)
+					//fmt.Println("%error: ", error_mejor)
+					//fmt.Println("sesgo: ", sesgo_mejor)
+					//fmt.Println("pesos: ", pesos_mejor)
 
 				}
 			}
